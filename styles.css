@@ -1,0 +1,10 @@
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+canvas {
+    border: 1px solid black;
+    max-width: 100%;
+    height: auto;
+}
