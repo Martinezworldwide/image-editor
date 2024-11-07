@@ -1,8 +1,19 @@
-<div class="editor-container">
-    <input type="file" id="upload" accept="image/*" />
-    <canvas id="canvas"></canvas>
-    <button onclick="applyFilter('grayscale')">Grayscale</button>
-    <button onclick="applyFilter('sepia')">Sepia</button>
-    <button onclick="downloadImage()">Download</button>
-    <!-- Add other buttons or sliders for brightness, contrast, etc. -->
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="editor-container">
+        <input type="file" id="upload" accept="image/*" />
+        <canvas id="canvas"></canvas>
+        <button onclick="applyFilter('grayscale(100%)')">Grayscale</button>
+        <button onclick="applyFilter('sepia(100%)')">Sepia</button>
+        <button onclick="downloadImage()">Download</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
